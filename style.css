@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #162A43;
+  background-color: #2D0451;
   overflow-x: hidden;
 }
 body { 
@@ -85,7 +85,7 @@ p {
 .presentation-post {
   padding: 20px;
   background: linear-gradient(to bottom, #480087,#350063);
-  height: 500px;
+  height: 200%;
 }
 
 .presentation-post img {
