@@ -1,0 +1,178 @@
+* {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #162A43;
+  overflow-x: hidden;
+}
+body { 
+ font-family: "JetBrains Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+h6 {
+  color: #979797;
+}
+
+.hashtags {
+  font-size: 80%;
+}
+
+p {
+  line-height: 2;
+}
+/* ===Header====*/
+.pronouns {
+  color: #6A0CBD;
+}
+.site-header {
+  background-color: #2D0451;
+  padding: 40px;
+  position: relative;
+}
+.bar-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TitleAndBars {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-dots img {
+  position: absolute;
+}
+.dot.hg { top: 8px; left: 8px}
+.dot.hd { top: 8px; right: 8px}
+.dot.bg { bottom: 8px; left: 8px}
+.dot.bd { bottom: 8px; right: 8px}
+/* ============*/
+
+/* === Head Post === */
+.head-post {
+  padding: 15px;
+  background-color: #000FB3;
+  width: 100%;
+}
+
+.head-post img {
+  width: 100%;
+  height: 7px;
+  object-fit: fill;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.head-post a {
+  color: #0800E9;
+}
+
+
+/* ============*/
+
+/* === Presentation === */
+.presentation-post {
+  padding: 20px;
+  background: linear-gradient(to bottom, #480087,#350063);
+  height: 500px;
+}
+
+.presentation-post img {
+  width: 100%;
+  height: 7px;
+  object-fit: fill;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.presentation-post a {
+  color: #7710D0;
+}
+
+/* =========== */
+
+/* === Cool train === */
+.cool-train-section {
+    background: linear-gradient(to bottom, #386DB3,#162A43);
+    padding-top: 20px;
+    width: 100%;
+}
+
+.barTrain {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 7px;
+  object-fit: fill;
+}
+
+.floors {
+  display: flex;
+  flex-direction: column;
+  margin: 120px 0;
+}
+
+.train {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.train-top {
+  align-self: flex-end;
+}
+
+.train-bottom {
+  align-self: flex-start;
+}
+
+.train img {
+  width: 60%;
+  height: auto;
+  display: block;
+}
+
+.text-train {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.spacer {
+  height: 100px;
+}
+/* =================== */
+
+/* === Site footer === */
+.site-footer {
+    background: linear-gradient(to bottom, #020FA1,#000FB3);
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.flags {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.credentials {
+  margin-top: 150px;
+}
+
+/* =================== */
