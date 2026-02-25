@@ -154,29 +154,55 @@ p {
 /* =================== */
 
 /* === Train Spotting Section === */
+.train-spotting-section {
+  background: #3B83E0;
+}
 .train-spotting-board {
   background: linear-gradient(to bottom, #162A43, #3B83E0);
   height: 1718px;
 }
-.train-spotting-section img {
+
+.train-spotting-quotes-transition {
+  position: relative;
+}
+.transition-flowers {
   display: block;
   width: 100vw;
 }
+
+.rain-drops {
+  display: block;
+  position: absolute;
+  top: 30%;
+  z-index: 2;
+  width: 100vw;
+}
+
 /* =================== */
 
 /* === Quotes === */
-.leaves-and-rain {
+.quote-section {
   background: linear-gradient(to bottom, #57759D, #010FA0);
   height: 575px;
+}
+
+.leaves-and-rain {
   display: flex;
   align-items: center;
 }
 
 .leaves-and-rain-text {
+  margin-top: 20%;
+  margin-bottom: 10%;
   width: 100vw;
   font-size: 20px;
   text-align: center;
 }
+
+/* .quotes-leaves { */
+  /* width: 100vw; */
+/* } */
+
 /* =================== */ 
 
 /* === Site footer === */
