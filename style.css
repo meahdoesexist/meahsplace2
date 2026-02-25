@@ -153,6 +153,32 @@ p {
 }
 /* =================== */
 
+/* === Train Spotting Section === */
+.train-spotting-board {
+  background: linear-gradient(to bottom, #162A43, #3B83E0);
+  height: 1718px;
+}
+.train-spotting-section img {
+  display: block;
+  width: 100vw;
+}
+/* =================== */
+
+/* === Quotes === */
+.leaves-and-rain {
+  background: linear-gradient(to bottom, #57759D, #010FA0);
+  height: 575px;
+  display: flex;
+  align-items: center;
+}
+
+.leaves-and-rain-text {
+  width: 100vw;
+  font-size: 20px;
+  text-align: center;
+}
+/* =================== */ 
+
 /* === Site footer === */
 .site-footer {
     background: linear-gradient(to bottom, #020FA1,#000FB3);
