@@ -1,5 +1,4 @@
 * {
-  color: #ffffff;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -9,10 +8,11 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #2D0451;
+  background: linear-gradient(to bottom, #2D0451, #000FB3);
   overflow-x: hidden;
 }
-body { 
+body {
+ color: #ffffff;
  font-family: "JetBrains Mono", monospace;
 }
 
@@ -85,7 +85,7 @@ p {
 .presentation-post {
   padding: 20px;
   background: linear-gradient(to bottom, #480087,#350063);
-  height: 200%;
+  /* height: 200%; */
 }
 
 .presentation-post img {
@@ -159,7 +159,7 @@ p {
 }
 .train-spotting-board {
   background: linear-gradient(to bottom, #162A43, #3B83E0);
-  height: 1718px;
+  height: 1750px;
 }
 
 .train-spotting-quotes-transition {
@@ -181,12 +181,11 @@ p {
 /* =================== */
 
 /* === Quotes === */
-.quote-section {
+.leaves-and-rain {
   background: linear-gradient(to bottom, #57759D, #010FA0);
-  height: 575px;
 }
 
-.leaves-and-rain {
+.leaves-and-text {
   display: flex;
   align-items: center;
 }
@@ -199,9 +198,33 @@ p {
   text-align: center;
 }
 
-/* .quotes-leaves { */
-  /* width: 100vw; */
-/* } */
+.quotes-leaves { 
+  width: 100vw; 
+}
+
+.double-quotes-and-cat {
+  color: #5F6CF0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #010FA0, #2E3577, #010EA0);
+
+}
+
+.cat-image {
+  align-self: flex-end;
+}
+
+.quote-l1 {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.quote-l2 {
+  margin-right: 5%;
+  align-self: flex-end;
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
 
 /* =================== */ 
 
