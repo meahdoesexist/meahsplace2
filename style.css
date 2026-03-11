@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-weight: normal;
 }
-html, body {
+
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -12,9 +14,10 @@ html, body {
   background: linear-gradient(to bottom, #2D0451, #000FB3);
   overflow-x: hidden;
 }
+
 body {
- color: #ffffff;
- font-family: "JetBrains Mono", monospace;
+  color: #ffffff;
+  font-family: "JetBrains Mono", monospace;
 }
 
 a {
@@ -32,32 +35,54 @@ h6 {
 p {
   line-height: 2;
 }
+
 /* ===Header====*/
 .pronouns {
   color: #6A0CBD;
 }
+
 .site-header {
   background-color: #2D0451;
   padding: 40px;
   position: relative;
 }
+
 .bar-contents {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .TitleAndBars {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .header-dots img {
   position: absolute;
 }
-.dot.hg { top: 8px; left: 8px}
-.dot.hd { top: 8px; right: 8px}
-.dot.bg { bottom: 8px; left: 8px}
-.dot.bd { bottom: 8px; right: 8px}
+
+.dot.hg {
+  top: 8px;
+  left: 8px
+}
+
+.dot.hd {
+  top: 8px;
+  right: 8px
+}
+
+.dot.bg {
+  bottom: 8px;
+  left: 8px
+}
+
+.dot.bd {
+  bottom: 8px;
+  right: 8px
+}
+
 /* ============*/
 
 /* === Head Post === */
@@ -85,7 +110,7 @@ p {
 /* === Presentation === */
 .presentation-post {
   padding: 20px;
-  background: linear-gradient(to bottom, #480087,#350063);
+  background: linear-gradient(to bottom, #480087, #350063);
   /* height: 200%; */
 }
 
@@ -104,10 +129,11 @@ p {
 /* =========== */
 
 /* === Cool train === */
+
 .cool-train-section {
-    background: linear-gradient(to bottom, #386DB3,#162A43);
-    padding-top: 20px;
-    width: 100%;
+  background: linear-gradient(to bottom, #386DB3 0%, #162A43 55%);
+  padding-top: 20px;
+  width: 100%;
 }
 
 .barTrain {
@@ -152,20 +178,111 @@ p {
 .spacer {
   height: 100px;
 }
+
 /* =================== */
 
 /* === Train Spotting Section === */
+
+.barTrainSpot {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 7px;
+  object-fit: fill;
+}
+
 .train-spotting-section {
   background: #3B83E0;
 }
+
 .train-spotting-board {
-  background: linear-gradient(to bottom, #162A43, #3B83E0);
+  /* background: linear-gradient(to bottom, #162A43 10%, #3B83E0 90%); */
+  background: linear-gradient(to bottom, #162A43 0%, #3B83E0 8%);
   height: 1750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+/* Rectangle 20 */
+
+
+
+
+.blogLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.waves {
+  width: 204px;
+  height: 155px;
+
+}
+
+.tales {
+  color: #629FF0;
+  font-size: 10px;
+}
+
+.blog-post {
+  height: 271px;
+  width: 469px;
+  display: flex;
+  flex-direction: column;
+
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.separator-blog {
+  width: 459px;
+  height: 2px;
+  align-self: center;
+  background: #000000;
+  border-radius: 2px;
+}
+
+.separator-blog:nth-child(1) {
+  margin-top: 12px;
+}
+
+.title-blog {
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.blog-post-text {
+  margin-top: 20px;
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 13px;
+}
+
+.blog-post-text p {
+  font-weight: 700;
+  font-size: 9px;
+  color: #000000;
+}
+
+.blog-sign {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 11px;
+  margin-left: 11px;
+  color: #000000;
+}
+
 
 .train-spotting-quotes-transition {
   position: relative;
 }
+
 .transition-flowers {
   display: block;
   width: 100vw;
@@ -178,6 +295,7 @@ p {
   z-index: 2;
   width: 100vw;
 }
+
 
 /* =================== */
 
@@ -199,8 +317,8 @@ p {
   text-align: center;
 }
 
-.quotes-leaves { 
-  width: 100vw; 
+.quotes-leaves {
+  width: 100vw;
 }
 
 .double-quotes-and-cat {
@@ -229,16 +347,16 @@ p {
   margin-top: 5%;
 }
 
-/* =================== */ 
+/* =================== */
 
 /* === Site footer === */
 .site-footer {
-    background: linear-gradient(to bottom, #020FA1,#000FB3);
-    align-items: center;
-    display: flex;
-    gap: 40px;
-    flex-direction: column;
-    padding: 40px 0;
+  background: linear-gradient(to bottom, #020FA1, #000FB3);
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  padding: 40px 0;
 }
 
 .flags {
