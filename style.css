@@ -193,10 +193,10 @@ p {
 
 .train-spotting-section {
   background: #3B83E0;
+  position: relative;
 }
 
 .train-spotting-board {
-  /* background: linear-gradient(to bottom, #162A43 10%, #3B83E0 90%); */
   background: linear-gradient(to bottom, #162A43 0%, #3B83E0 8%);
   height: 1750px;
   display: flex;
@@ -204,21 +204,23 @@ p {
   justify-content: space-around;
 }
 
-/* Rectangle 20 */
-
-
-
-
 .blogLine {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.waves {
-  width: 204px;
-  height: 155px;
+.blogLine:nth-of-type(2)>div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
 
+
+.waves {
+  width: 244px;
+  height: 186px;
 }
 
 .tales {
@@ -227,17 +229,37 @@ p {
 }
 
 .blog-post {
-  height: 271px;
-  width: 469px;
+  height: 325.2px;
+  width: 562.8px;
   display: flex;
   flex-direction: column;
 
   background: #D9D9D9;
   box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
 }
 
+.pins {
+  position: absolute;
+  width: 84.34px;
+  height: 115.66px;
+  z-index: 2;
+}
+
+.pins.pin1 {
+  top: 27%;
+  left: 85%;
+}
+
+.pins.pin2 {
+  top: 51%;
+  left: 10%;
+}
+
+
 .separator-blog {
-  width: 459px;
+  width: 540px;
   height: 2px;
   align-self: center;
   background: #000000;
@@ -251,33 +273,46 @@ p {
 .title-blog {
   font-weight: 700;
   color: #000000;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 20px;
 }
 
 .blog-post-text {
   margin-top: 20px;
-  margin-left: 11px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 13px;
+  margin-bottom: 30px;
 }
 
 .blog-post-text p {
   font-weight: 700;
-  font-size: 9px;
+  font-size: 10px;
   color: #000000;
 }
 
 .blog-sign {
-  margin-top: 5px;
+  margin-top: 7px;
   font-weight: 700;
   font-size: 11px;
   margin-left: 11px;
   color: #000000;
 }
 
+.flowerDec {
+  position: absolute;
+}
+
+.flowerDec.f1 {
+  top: 26%;
+  left: 10%;
+}
+
+.flowerDec.f2 {
+  top: 70%;
+  left: 80%;
+}
 
 .train-spotting-quotes-transition {
   position: relative;
@@ -372,3 +407,16 @@ p {
 }
 
 /* =================== */
+
+/* -------- */
+/* temporary */
+.connector {
+  position: absolute;
+  stroke: #BF0000;
+  stroke-width: 0.2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
