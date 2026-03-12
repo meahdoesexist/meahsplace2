@@ -88,9 +88,11 @@ p {
 /* === Head Post === */
 .head-post {
   padding: 15px;
+  /* background-color: linear-gradient(180deg, #000FB3 0%, #480087 100%); */
   background-color: #000FB3;
   width: 100%;
 }
+
 
 .head-post img {
   width: 100%;
@@ -110,8 +112,10 @@ p {
 /* === Presentation === */
 .presentation-post {
   padding: 20px;
+
+  /* background: linear-gradient(180deg, #480087 0%, #3C51A7 100%); */
+
   background: linear-gradient(to bottom, #480087, #350063);
-  /* height: 200%; */
 }
 
 .presentation-post img {
@@ -131,7 +135,9 @@ p {
 /* === Cool train === */
 
 .cool-train-section {
-  background: linear-gradient(to bottom, #386DB3 0%, #162A43 55%);
+
+  background: linear-gradient(180deg, #3C51A7 0%, #162A43 57.62%);
+  /* background: linear-gradient(to bottom, #386DB3 0%, #162A43 55%); */
   padding-top: 20px;
   width: 100%;
 }
@@ -239,6 +245,31 @@ p {
   position: relative;
   z-index: 1;
 }
+
+@media (width >=1650px) {
+  .connector {
+    display: none;
+  }
+}
+
+/* @media (min-width: 600px) { */
+/* .blog-post { */
+/* height: 455.28px; */
+/* width: 787.92px; */
+/* } */
+
+/* .blog-post p, */
+/* .blog-post>div p { */
+/* font-size: 18px; */
+/* } */
+
+/* .title-blog { */
+/* font-size: 30px; */
+/* } */
+
+
+/* } */
+
 
 .pins {
   position: absolute;
