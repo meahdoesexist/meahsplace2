@@ -8,6 +8,8 @@
 html,
 body {
   height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   background: #2D0451;
@@ -91,6 +93,7 @@ p {
   /* background-color: linear-gradient(180deg, #000FB3 0%, #480087 100%); */
   background-color: #000FB3;
   width: 100%;
+  min-width: 100vw;
 }
 
 
@@ -112,6 +115,7 @@ p {
 /* === Presentation === */
 .presentation-post {
   padding: 20px;
+  min-width: 100vw;
 
   /* background: linear-gradient(180deg, #480087 0%, #3C51A7 100%); */
 
@@ -140,6 +144,7 @@ p {
   /* background: linear-gradient(to bottom, #386DB3 0%, #162A43 55%); */
   padding-top: 20px;
   width: 100%;
+  min-width: 100vw;
 }
 
 .barTrain {
@@ -198,6 +203,7 @@ p {
 }
 
 .train-spotting-section {
+  min-width: 100vw;
   background: #3B83E0;
   position: relative;
 }
@@ -310,6 +316,7 @@ p {
 .blog-post-text p {
   font-weight: 700;
   font-size: 10px;
+  letter-spacing: 1px;
   color: #000000;
 }
 
@@ -357,6 +364,7 @@ p {
 
 /* === Quotes === */
 .leaves-and-rain {
+  min-width: 100vw;
   background: linear-gradient(to bottom, #57759D, #010FA0);
 }
 
@@ -413,6 +421,7 @@ p {
   gap: 40px;
   flex-direction: column;
   padding: 40px 0;
+  min-width: 100vw;
 }
 
 .flags {
