@@ -7,12 +7,9 @@
 
 html,
 body {
-  height: 100%;
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100%;
   margin: 0;
   padding: 0;
-  background: #2D0451;
   background: linear-gradient(to bottom, #2D0451, #000FB3);
   overflow-x: hidden;
 }
@@ -88,7 +85,6 @@ p {
   padding: 15px;
   background: linear-gradient(180deg, #000FB3 0%, #480187 100%);
   width: 100%;
-  min-width: 100vw;
 }
 
 .head-post img {
@@ -121,7 +117,7 @@ p {
 
 .mountains {
   margin-top: 60px;
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -163,7 +159,6 @@ p {
   background: linear-gradient(180deg, #383991 0%, #162A43 57.62%);
   padding-top: 20px;
   width: 100%;
-  min-width: 100vw;
 }
 
 .barTrain {
@@ -222,7 +217,7 @@ p {
 }
 
 .train-spotting-section {
-  min-width: 100vw;
+  width: 100%;
   background: #3B83E0;
   position: relative;
 }
@@ -347,6 +342,18 @@ p {
   color: #000000;
 }
 
+.connector {
+  position: absolute;
+  stroke: #BF0000;
+  stroke-width: 0.2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
 .flowerDec {
   position: absolute;
 }
@@ -375,7 +382,7 @@ p {
   position: absolute;
   top: 30%;
   z-index: 2;
-  width: 100vw;
+  width: 100%;
 }
 
 
@@ -383,7 +390,7 @@ p {
 
 /* === Quotes === */
 .leaves-and-rain {
-  min-width: 100vw;
+  width: 100%;
   background: linear-gradient(to bottom, #57759D, #010FA0);
 }
 
@@ -440,8 +447,8 @@ p {
   gap: 40px;
   flex-direction: column;
   padding: 40px 0;
-  min-width: 100vw;
-  /* background-color: linear-gradient(180deg, #000FB3 0%, #480087 100%); */
+  width: 100%;
+  background-color: linear-gradient(180deg, #000FB3 0%, #480087 100%);
 }
 
 .flags {
@@ -457,16 +464,3 @@ p {
 }
 
 /* =================== */
-
-/* -------- */
-/* temporary */
-.connector {
-  position: absolute;
-  stroke: #BF0000;
-  stroke-width: 0.2px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
