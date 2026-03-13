@@ -30,10 +30,6 @@ h6 {
   color: #979797;
 }
 
-.hashtags {
-  font-size: 80%;
-}
-
 p {
   line-height: 2;
 }
@@ -90,16 +86,14 @@ p {
 /* === Head Post === */
 .head-post {
   padding: 15px;
-  /* background-color: linear-gradient(180deg, #000FB3 0%, #480087 100%); */
-  background-color: #000FB3;
+  background: linear-gradient(180deg, #000FB3 0%, #480187 100%);
   width: 100%;
   min-width: 100vw;
 }
 
-
 .head-post img {
   width: 100%;
-  height: 7px;
+  height: 11px;
   object-fit: fill;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -114,24 +108,51 @@ p {
 
 /* === Presentation === */
 .presentation-post {
-  padding: 20px;
-  min-width: 100vw;
-
-  /* background: linear-gradient(180deg, #480087 0%, #3C51A7 100%); */
-
-  background: linear-gradient(to bottom, #480087, #350063);
+  width: 100%;
+  background: linear-gradient(180deg, #480087 0%, #3C51A7 100%);
 }
 
-.presentation-post img {
-  width: 100%;
-  height: 7px;
+.presentation-post .bar {
+  width: calc(100% - 40px);
+  height: 15px;
   object-fit: fill;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.mountains {
+  margin-top: 60px;
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.presentation-post a,
+.presentation-post h2,
+.presentation-content,
+.hashtags {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .presentation-post a {
-  color: #7710D0;
+  padding-left: 0;
+  color: #9C9EFF;
+}
+
+.hashtags {
+  padding-left: 30px;
+  font-size: 10px;
+}
+
+.presentation-content {
+  font-size: 20px;
+}
+
+.presentation-post h6 {
+  padding-left: 20px;
 }
 
 /* =========== */
@@ -139,9 +160,7 @@ p {
 /* === Cool train === */
 
 .cool-train-section {
-
-  background: linear-gradient(180deg, #3C51A7 0%, #162A43 57.62%);
-  /* background: linear-gradient(to bottom, #386DB3 0%, #162A43 55%); */
+  background: linear-gradient(180deg, #383991 0%, #162A43 57.62%);
   padding-top: 20px;
   width: 100%;
   min-width: 100vw;
@@ -151,7 +170,7 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
-  height: 7px;
+  height: 15px;
   object-fit: fill;
 }
 
@@ -198,7 +217,7 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
-  height: 7px;
+  height: 15px;
   object-fit: fill;
 }
 
@@ -422,6 +441,7 @@ p {
   flex-direction: column;
   padding: 40px 0;
   min-width: 100vw;
+  /* background-color: linear-gradient(180deg, #000FB3 0%, #480087 100%); */
 }
 
 .flags {
